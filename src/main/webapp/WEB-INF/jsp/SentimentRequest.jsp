@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<a HREF="./SentimentRequest"> 検索ページ</a>
 <h1>Sentimentを使うサイト</h1>
 
 <h3>調べたい文字列を教えてください</h3>

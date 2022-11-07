@@ -40,7 +40,7 @@ public class Sentiment {
 
 		InetSocketAddress proxy = new InetSocketAddress("172.17.0.2", 80);
 
-		JsonReader reader = WebApiConnector.postJsonReader(url, proxy, map, jsonData);
+		JsonReader reader = WebApiConnector.postJsonReader(url,  map, jsonData);
 		sentiLan message = null;
 		if (reader != null) {
 			 message = gson.fromJson(reader, sentiLan.class);

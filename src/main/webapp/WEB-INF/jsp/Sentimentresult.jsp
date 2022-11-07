@@ -16,14 +16,14 @@ float positive =
 
 float neutral =
 	(float)request.getAttribute("message3");
-
+	
 
 //Optional<String> string = 
 	//Optional.ofNullable((String) request.getAttribute("string"));
 
 	
 %>
-
+<a HREF="./SentimentRequest"> 検索ページ</a>
 <body>
 <H1>Sentiment</H1>
 <H2>結果：Negative<%= negative  %></H2>
