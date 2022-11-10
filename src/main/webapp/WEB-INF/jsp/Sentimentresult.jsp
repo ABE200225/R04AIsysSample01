@@ -27,7 +27,7 @@ float neutral =
 <body>
 <H1>Sentiment</H1>
 <H2>結果：Negative<%= negative  %></H2>
-<H3>Positive<%= positive %></H3>
-<H4>Neutral<%=neutral %></H4>
+<H3>Positive:<%= positive %></H3>
+<H4>Neutral:<%=neutral %></H4>
 </body>
 </html>
